@@ -5,7 +5,7 @@ namespace Crud_Agenda.Data
 {
     public class ContactContext : DbContext
     {
-        public DbSet<ContactModel> contacts { get; set; };
+        public DbSet<ContactModel> Contacts { get; set; };
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
           => optionsBuilder.UseNpgsql(
