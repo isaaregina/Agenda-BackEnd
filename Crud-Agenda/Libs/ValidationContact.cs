@@ -1,6 +1,7 @@
 ﻿using Crud_Agenda.Model;
 
-namespace Crud_Agenda.Libs
+
+namespace Crud_Agenda.Validation
 {
     public class ValidationContact
     {
@@ -10,6 +11,7 @@ namespace Crud_Agenda.Libs
             if (string.IsNullOrWhiteSpace(contact.name)) throw new ArgumentException("Preencha o campo nome");
             if (string.IsNullOrWhiteSpace(contact.email)) throw new ArgumentException("Preencha o campo email");
             if (string.IsNullOrWhiteSpace(contact.phone)) throw new ArgumentException("Preencha o campo telefone");
+            if (string.IsNullOrWhiteSpace(contact.phone)) throw new ArgumentException("Preencha o campo email");
 
         }
     }

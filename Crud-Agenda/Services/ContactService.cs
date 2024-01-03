@@ -47,7 +47,6 @@ namespace Crud_Agenda.Services
 
             return await this.repository.GetByEmail(Email);
         }
-
         public async void UpdateContact(int id, ContactModel Contact)
         {
             ValidationContact.Validation(Contact);
