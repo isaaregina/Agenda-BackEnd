@@ -9,9 +9,9 @@ namespace Crud_Agenda.Model
         [Key]
 
         public int id { get; set; }
-        public string name { get; private set; }
-        public string email { get; private set; }
-        public string phone { get; private set; }
+        public string name { get; set; }
+        public string email { get; set; }
+        public string phone { get; set; }
 
         public ContactModel()
         {
