@@ -29,6 +29,11 @@ namespace Crud_Agenda.Repository
             return await this._context.Contacts.Where(x => x.email == Email).FirstOrDefaultAsync();
         }
 
+        public async Task<ContactModel> GetById(int Id)
+        {
+            return await this._context.Contacts.Where(x => x.id == Id).FirstOrDefaultAsync();
+        }
+
         public void UpdateContact(ContactModel Contact)
         {
             this._context.Contacts.Update(Contact);
