@@ -4,11 +4,11 @@ namespace Crud_Agenda.Repository
 {
     public interface IRepositoryContact
     {
-        void GetAllContact();
-        void GetByEmail(string email);
-        void CreateContact(ContactModel contact);
-        void UpdateContact(ContactModel contact);
-        void DeleteContact(ContactModel contact);
+        List<ContactModel> GetAllContact();
+        Task<ContactModel> GetByEmail(string Email);
+        void CreateContact(ContactModel Contact);
+        void UpdateContact(ContactModel Contact);
+        void DeleteContact(ContactModel Contact);
 
 
 
