@@ -1,0 +1,8 @@
+D:\isabe\source\repos\Blue\Crud-Agenda\Crud-Agenda\obj\Debug\net8.0\Crud-Agenda.csproj.AssemblyReference.cache
+D:\isabe\source\repos\Blue\Crud-Agenda\Crud-Agenda\obj\Debug\net8.0\Crud-Agenda.GeneratedMSBuildEditorConfig.editorconfig
+D:\isabe\source\repos\Blue\Crud-Agenda\Crud-Agenda\obj\Debug\net8.0\Crud-Agenda.AssemblyInfoInputs.cache
+D:\isabe\source\repos\Blue\Crud-Agenda\Crud-Agenda\obj\Debug\net8.0\Crud-Agenda.AssemblyInfo.cs
+D:\isabe\source\repos\Blue\Crud-Agenda\Crud-Agenda\obj\Debug\net8.0\Crud-Agenda.csproj.CoreCompileInputs.cache
+D:\isabe\source\repos\Blue\Crud-Agenda\Crud-Agenda\obj\Debug\net8.0\Crud-Agenda.MvcApplicationPartsAssemblyInfo.cs
+D:\isabe\source\repos\Blue\Crud-Agenda\Crud-Agenda\obj\Debug\net8.0\Crud-Agenda.MvcApplicationPartsAssemblyInfo.cache
+D:\isabe\source\repos\Blue\Crud-Agenda\Crud-Agenda\obj\Debug\net8.0\Crud-Agenda.sourcelink.json
