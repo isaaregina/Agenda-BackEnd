@@ -12,5 +12,17 @@ namespace Crud_Agenda.Model
         public string email { get; private set; }
         public string phone { get; private set; }
 
+        public ContactModel()
+        {
+        }
+
+        public ContactModel(string name, string email, string phone)
+        {
+            this.name = name ?? throw new ArgumentNullException(nameof(name));
+            this.email = email ?? throw new ArgumentNullException(nameof(email));
+            this.phone = phone ?? throw new ArgumentNullException(nameof(phone));
+        }
+
+        
     }
 }
